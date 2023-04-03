@@ -40,7 +40,6 @@ final class CaretakerViewModel: ObservableObject {
     func next() {
         guard !nextMementos.isEmpty else { return }
         let removedMemento: Memento = nextMementos.removeLast()
-        print("This is the removed memento: \(removedMemento)")
         originator.restore(memento: removedMemento)
         setNewState()
         backup()
