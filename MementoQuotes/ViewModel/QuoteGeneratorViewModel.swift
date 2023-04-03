@@ -52,14 +52,12 @@ final class CaretakerViewModel: ObservableObject {
     }
     
     private func backup() {
-        print("backing up....")
         mementos.append(originator.save())
         print(mementos)
     }
     
     private func setNewState() {
         let currentState = self.originator.save().getState()
-        print("Current state: \(currentState)")
         self.quote = currentState.0
         self.imageData = currentState.1
         self.image = currentState.2
