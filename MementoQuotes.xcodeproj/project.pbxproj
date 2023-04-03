@@ -7,18 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B031EFE729C8D8BA00B7F00F /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B031EFE629C8D8BA00B7F00F /* ImageModel.swift */; };
+		B031F00F29CC2E4100B7F00F /* QuoteGeneratorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B031F00E29CC2E4100B7F00F /* QuoteGeneratorViewModel.swift */; };
+		B031F01129CC5D0A00B7F00F /* Memento.swift in Sources */ = {isa = PBXBuildFile; fileRef = B031F01029CC5D0A00B7F00F /* Memento.swift */; };
+		B031F02F29D42E4700B7F00F /* Originator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B031F02E29D42E4700B7F00F /* Originator.swift */; };
+		B031F03429D47E7E00B7F00F /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B031F03329D47E7E00B7F00F /* ViewExtension.swift */; };
+		B031F03629D4A82300B7F00F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B031F03529D4A82200B7F00F /* NetworkManager.swift */; };
 		B0CAE79E29C7FE6100E8A31E /* MementoQuotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CAE79D29C7FE6100E8A31E /* MementoQuotesApp.swift */; };
-		B0CAE7A029C7FE6100E8A31E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CAE79F29C7FE6100E8A31E /* ContentView.swift */; };
+		B0CAE7A029C7FE6100E8A31E /* QuoteGeneratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CAE79F29C7FE6100E8A31E /* QuoteGeneratorView.swift */; };
 		B0CAE7A229C7FE6300E8A31E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0CAE7A129C7FE6300E8A31E /* Assets.xcassets */; };
 		B0CAE7A529C7FE6300E8A31E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0CAE7A429C7FE6300E8A31E /* Preview Assets.xcassets */; };
+		B0CAE7AC29C7FF0600E8A31E /* QuoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CAE7AB29C7FF0600E8A31E /* QuoteModel.swift */; };
+		B0CAE7AE29C7FF9400E8A31E /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CAE7AD29C7FF9400E8A31E /* Utils.swift */; };
+		B0CAE7B229C804E200E8A31E /* Env.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CAE7B129C804E200E8A31E /* Env.swift */; };
+		B0D13FD229DB3B8800841038 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B0D13FD129DB3B8800841038 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B031EFE629C8D8BA00B7F00F /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
+		B031F00E29CC2E4100B7F00F /* QuoteGeneratorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteGeneratorViewModel.swift; sourceTree = "<group>"; };
+		B031F01029CC5D0A00B7F00F /* Memento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memento.swift; sourceTree = "<group>"; };
+		B031F02E29D42E4700B7F00F /* Originator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Originator.swift; sourceTree = "<group>"; };
+		B031F03329D47E7E00B7F00F /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		B031F03529D4A82200B7F00F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		B0CAE79A29C7FE6100E8A31E /* MementoQuotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MementoQuotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0CAE79D29C7FE6100E8A31E /* MementoQuotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MementoQuotesApp.swift; sourceTree = "<group>"; };
-		B0CAE79F29C7FE6100E8A31E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B0CAE79F29C7FE6100E8A31E /* QuoteGeneratorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteGeneratorView.swift; sourceTree = "<group>"; };
 		B0CAE7A129C7FE6300E8A31E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0CAE7A429C7FE6300E8A31E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B0CAE7AB29C7FF0600E8A31E /* QuoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteModel.swift; sourceTree = "<group>"; };
+		B0CAE7AD29C7FF9400E8A31E /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		B0CAE7AF29C8037700E8A31E /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		B0CAE7B029C8048B00E8A31E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B0CAE7B129C804E200E8A31E /* Env.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Env.swift; sourceTree = "<group>"; };
+		B0D13FD129DB3B8800841038 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,9 +54,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B031F02D29D42E3D00B7F00F /* Memento */ = {
+			isa = PBXGroup;
+			children = (
+				B031F01029CC5D0A00B7F00F /* Memento.swift */,
+				B031F02E29D42E4700B7F00F /* Originator.swift */,
+			);
+			path = Memento;
+			sourceTree = "<group>";
+		};
+		B031F03029D4302C00B7F00F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B031EFE629C8D8BA00B7F00F /* ImageModel.swift */,
+				B0CAE7AB29C7FF0600E8A31E /* QuoteModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B031F03129D431F800B7F00F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B031F00E29CC2E4100B7F00F /* QuoteGeneratorViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B031F03229D47E7100B7F00F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B0CAE79F29C7FE6100E8A31E /* QuoteGeneratorView.swift */,
+				B031F03329D47E7E00B7F00F /* ViewExtension.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B031F03729D4A82D00B7F00F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B031F03529D4A82200B7F00F /* NetworkManager.swift */,
+				B0CAE7AD29C7FF9400E8A31E /* Utils.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		B0CAE79129C7FE6100E8A31E = {
 			isa = PBXGroup;
 			children = (
+				B0D13FD129DB3B8800841038 /* .gitignore */,
 				B0CAE79C29C7FE6100E8A31E /* MementoQuotes */,
 				B0CAE79B29C7FE6100E8A31E /* Products */,
 			);
@@ -51,8 +118,15 @@
 		B0CAE79C29C7FE6100E8A31E /* MementoQuotes */ = {
 			isa = PBXGroup;
 			children = (
+				B0CAE7B029C8048B00E8A31E /* Info.plist */,
+				B0CAE7AF29C8037700E8A31E /* Config.xcconfig */,
 				B0CAE79D29C7FE6100E8A31E /* MementoQuotesApp.swift */,
-				B0CAE79F29C7FE6100E8A31E /* ContentView.swift */,
+				B0CAE7B129C804E200E8A31E /* Env.swift */,
+				B031F03729D4A82D00B7F00F /* Utilities */,
+				B031F02D29D42E3D00B7F00F /* Memento */,
+				B031F03029D4302C00B7F00F /* Model */,
+				B031F03129D431F800B7F00F /* ViewModel */,
+				B031F03229D47E7100B7F00F /* Views */,
 				B0CAE7A129C7FE6300E8A31E /* Assets.xcassets */,
 				B0CAE7A329C7FE6300E8A31E /* Preview Content */,
 			);
@@ -126,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0CAE7A529C7FE6300E8A31E /* Preview Assets.xcassets in Resources */,
+				B0D13FD229DB3B8800841038 /* .gitignore in Resources */,
 				B0CAE7A229C7FE6300E8A31E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +212,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0CAE7A029C7FE6100E8A31E /* ContentView.swift in Sources */,
+				B031F02F29D42E4700B7F00F /* Originator.swift in Sources */,
+				B0CAE7AC29C7FF0600E8A31E /* QuoteModel.swift in Sources */,
+				B031EFE729C8D8BA00B7F00F /* ImageModel.swift in Sources */,
+				B0CAE7A029C7FE6100E8A31E /* QuoteGeneratorView.swift in Sources */,
+				B031F03629D4A82300B7F00F /* NetworkManager.swift in Sources */,
+				B031F03429D47E7E00B7F00F /* ViewExtension.swift in Sources */,
 				B0CAE79E29C7FE6100E8A31E /* MementoQuotesApp.swift in Sources */,
+				B031F00F29CC2E4100B7F00F /* QuoteGeneratorViewModel.swift in Sources */,
+				B031F01129CC5D0A00B7F00F /* Memento.swift in Sources */,
+				B0CAE7AE29C7FF9400E8A31E /* Utils.swift in Sources */,
+				B0CAE7B229C804E200E8A31E /* Env.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +231,7 @@
 /* Begin XCBuildConfiguration section */
 		B0CAE7A629C7FE6300E8A31E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0CAE7AF29C8037700E8A31E /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -207,6 +292,7 @@
 		};
 		B0CAE7A729C7FE6300E8A31E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0CAE7AF29C8037700E8A31E /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -270,11 +356,14 @@
 				DEVELOPMENT_TEAM = F4UY8YURNN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MementoQuotes/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +388,14 @@
 				DEVELOPMENT_TEAM = F4UY8YURNN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MementoQuotes/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

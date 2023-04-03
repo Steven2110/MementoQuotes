@@ -11,7 +11,7 @@ import SwiftUI
 struct MementoQuotesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            QuoteGeneratorView()
         }
     }
 }
