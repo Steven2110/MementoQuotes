@@ -14,7 +14,7 @@
 		B031F03429D47E7E00B7F00F /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B031F03329D47E7E00B7F00F /* ViewExtension.swift */; };
 		B031F03629D4A82300B7F00F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B031F03529D4A82200B7F00F /* NetworkManager.swift */; };
 		B095ED142A213F0B00C6D653 /* Виджая_Отчёт_Индивидуальный_Проект.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B095ED132A213F0B00C6D653 /* Виджая_Отчёт_Индивидуальный_Проект.pdf */; };
-		B095ED162A2140B000C6D653 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = B095ED152A2140B000C6D653 /* demo.gif */; };
+		B095ED182A21430300C6D653 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = B095ED172A21430300C6D653 /* demo.gif */; };
 		B0CAE79E29C7FE6100E8A31E /* MementoQuotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CAE79D29C7FE6100E8A31E /* MementoQuotesApp.swift */; };
 		B0CAE7A029C7FE6100E8A31E /* QuoteGeneratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CAE79F29C7FE6100E8A31E /* QuoteGeneratorView.swift */; };
 		B0CAE7A229C7FE6300E8A31E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0CAE7A129C7FE6300E8A31E /* Assets.xcassets */; };
@@ -33,7 +33,7 @@
 		B031F03329D47E7E00B7F00F /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
 		B031F03529D4A82200B7F00F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		B095ED132A213F0B00C6D653 /* Виджая_Отчёт_Индивидуальный_Проект.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Виджая_Отчёт_Индивидуальный_Проект.pdf"; sourceTree = "<group>"; };
-		B095ED152A2140B000C6D653 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
+		B095ED172A21430300C6D653 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 		B0CAE79A29C7FE6100E8A31E /* MementoQuotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MementoQuotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0CAE79D29C7FE6100E8A31E /* MementoQuotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MementoQuotesApp.swift; sourceTree = "<group>"; };
 		B0CAE79F29C7FE6100E8A31E /* QuoteGeneratorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteGeneratorView.swift; sourceTree = "<group>"; };
@@ -106,7 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				B095ED132A213F0B00C6D653 /* Виджая_Отчёт_Индивидуальный_Проект.pdf */,
-				B095ED152A2140B000C6D653 /* demo.gif */,
+				B095ED172A21430300C6D653 /* demo.gif */,
 			);
 			path = Documentation;
 			sourceTree = "<group>";
@@ -215,7 +215,7 @@
 			files = (
 				B0CAE7A529C7FE6300E8A31E /* Preview Assets.xcassets in Resources */,
 				B0D13FD229DB3B8800841038 /* .gitignore in Resources */,
-				B095ED162A2140B000C6D653 /* demo.gif in Resources */,
+				B095ED182A21430300C6D653 /* demo.gif in Resources */,
 				B0CAE7A229C7FE6300E8A31E /* Assets.xcassets in Resources */,
 				B095ED142A213F0B00C6D653 /* Виджая_Отчёт_Индивидуальный_Проект.pdf in Resources */,
 			);
